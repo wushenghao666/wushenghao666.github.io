@@ -5,10 +5,10 @@
     
     <entry>
       <title>博客更新日志</title>
-      <link href="/2020/02/19/%E5%8D%9A%E5%AE%A2%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97/"/>
-      <url>/2020/02/19/%E5%8D%9A%E5%AE%A2%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97/</url>
+      <link href="/51354/"/>
+      <url>/51354/</url>
       
-        <content type="html"><![CDATA[<h4 id="2-17"><a href="#2-17" class="headerlink" title="2.17"></a>2.17</h4><p>选定主题，通过hexo成功搭建博客，上传hello world文章（只有标题）为顶部目录做好了链接，修改打赏码和名字、标题。</p><h4 id="2-18"><a href="#2-18" class="headerlink" title="2.18"></a>2.18</h4><p>添加评论留言系统，添加友链，优化背景和配色，修改默认社交链接，修改关于我的信息，更新搜索功能。</p><h4 id="2-19"><a href="#2-19" class="headerlink" title="2.19"></a>2.19</h4><p>尝试更新音乐系统，尝试使用七牛云存储图片，尝试简化子链接，但都失败了。添加了趣味标题和微信链接。学习了markdown一些语法并尝试用语法上传一些文章。</p>]]></content>
+        <content type="html"><![CDATA[<h4 id="2-17"><a href="#2-17" class="headerlink" title="2.17"></a>2.17</h4><p>选定主题，通过hexo成功搭建博客，上传hello world文章（只有标题）为顶部目录做好了链接，修改打赏码和名字、标题。</p><h4 id="2-18"><a href="#2-18" class="headerlink" title="2.18"></a>2.18</h4><p>添加评论留言系统，添加友链，优化背景和配色，修改默认社交链接，修改关于我的信息，更新搜索功能。</p><h4 id="2-19"><a href="#2-19" class="headerlink" title="2.19"></a>2.19</h4><p>尝试更新音乐系统，尝试使用七牛云存储图片，尝试简化子链接，但都失败了。添加了趣味标题和微信链接。学习了markdown一些语法并尝试用语法上传一些文章。</p><h4 id="已知问题"><a href="#已知问题" class="headerlink" title="已知问题"></a>已知问题</h4><ol><li><p>评论区域的回复功能无法正常使用</p></li><li><p>电脑端音乐播放器无法正常使用</p></li></ol><h4 id="待完善"><a href="#待完善" class="headerlink" title="待完善"></a>待完善</h4><ol><li>“分类”界面的词云会把多个标签的文章解析成一个来统计</li><li>”关于我“界面的”其他技能“显示的是”分类“的词云</li><li>切换为非主页时标题还是“无声好”，过于单调，并且“时间轴”的标题显示是“归档”</li></ol>]]></content>
       
       
       <categories>
@@ -30,8 +30,8 @@
     
     <entry>
       <title>我的第0篇博客</title>
-      <link href="/2020/02/19/%E6%88%91%E7%9A%84%E7%AC%AC0%E7%AF%87%E5%8D%9A%E5%AE%A2/"/>
-      <url>/2020/02/19/%E6%88%91%E7%9A%84%E7%AC%AC0%E7%AF%87%E5%8D%9A%E5%AE%A2/</url>
+      <link href="/53687/"/>
+      <url>/53687/</url>
       
         <content type="html"><![CDATA[<h1 id="我的第0篇博客"><a href="#我的第0篇博客" class="headerlink" title="我的第0篇博客"></a>我的第0篇博客</h1><p>这篇文章是用来测试markdown的各种语法的。<a id="more"></a></p><hr><p><em>我是斜体</em></p><p><strong>我是粗体</strong></p><p><strong><em>我是粗斜体</em></strong></p><p><del>你看不到我</del></p><p><u>我站在线上</u></p><!--注释--><hr><ul><li><p>并列的第一项</p></li><li><p>并列的第二项</p></li><li><p>并列的第三项</p></li></ul><ol><li>第一项<ul><li>第一项嵌套的第一个元素</li><li>第一项嵌套的第二个元素</li></ul></li><li>第二项</li></ol><hr><blockquote><p>区块引用<br>还是这一层</p><blockquote><p>里面一层了</p><blockquote><ol><li>最里层第一项</li><li>最里层第二项<ul><li>1</li><li>2</li></ul></li></ol></blockquote></blockquote></blockquote><hr><p><code>printf()</code>函数</p><pre><code>//开始写代码了include &lt;stdio.h&gt;int main(){printf(&quot;Hello World!&quot;);return 0;}</code></pre><p>超链接：点击打开<a href="https://www.baidu.com" target="_blank" rel="noopener">百度</a></p><hr><p>我还可以添加我的微信二维码：</p><p><img src="http://wx1.sinaimg.cn/mw1024/006AongJgy1gc1n548yrej30e80e8q2v.jpg" alt="我的微信"></p><table><thead><tr><th align="right">名字</th><th align="left">战斗力</th></tr></thead><tbody><tr><td align="right">无声好</td><td align="left">0</td></tr></tbody></table>]]></content>
       
@@ -55,8 +55,8 @@
     
     <entry>
       <title>Hello world</title>
-      <link href="/2020/02/17/Hello%20World/"/>
-      <url>/2020/02/17/Hello%20World/</url>
+      <link href="/63850/"/>
+      <url>/63850/</url>
       
         <content type="html"><![CDATA[<p>我成功搭建了博客并上传了我的第一篇文章。</p>]]></content>
       
@@ -80,8 +80,8 @@
     
     <entry>
       <title>Hello World</title>
-      <link href="/2020/02/17/Hexo%E6%95%99%E7%A8%8B/"/>
-      <url>/2020/02/17/Hexo%E6%95%99%E7%A8%8B/</url>
+      <link href="/16107/"/>
+      <url>/16107/</url>
       
         <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><pre class=" language-bash"><code class="language-bash">$ hexo new <span class="token string">"My New Post"</span></code></pre><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><pre class=" language-bash"><code class="language-bash">$ hexo server</code></pre><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><pre class=" language-bash"><code class="language-bash">$ hexo generate</code></pre><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><pre class=" language-bash"><code class="language-bash">$ hexo deploy</code></pre><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
       
