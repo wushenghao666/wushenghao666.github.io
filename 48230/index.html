@@ -4,8 +4,8 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="集合计算器, 无声好">
-    <meta name="description" content="编写的一个小程序。">
+    <meta name="keywords" content="Linux常用命令, 无声好">
+    <meta name="description" content="Linux学习记录(1)">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -13,7 +13,7 @@
     <meta name="format-detection" content="telephone=no">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <title>集合计算器 | 无声好</title>
+    <title>Linux常用命令 | 无声好</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -281,12 +281,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/5.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/10.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">集合计算器</h1>
+                    <h1 class="description center-align post-title">Linux常用命令</h1>
                 </div>
             </div>
         </div>
@@ -403,8 +403,8 @@
                     
                     <div class="article-tag">
                         
-                            <a href="/tags/%E5%B0%8F%E7%A8%8B%E5%BA%8F/">
-                                <span class="chip bg-color">小程序</span>
+                            <a href="/tags/%E7%AC%94%E8%AE%B0/">
+                                <span class="chip bg-color">笔记</span>
                             </a>
                         
                     </div>
@@ -415,8 +415,8 @@
                     <div class="post-cate">
                         <i class="fas fa-bookmark fa-fw icon-category"></i>
                         
-                            <a href="/categories/%E7%A8%8B%E5%BA%8F/" class="post-category">
-                                程序
+                            <a href="/categories/%E7%AC%94%E8%AE%B0/" class="post-category">
+                                笔记
                             </a>
                         
                     </div>
@@ -428,28 +428,28 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2020-03-03
+                    2020-07-03
                 </div>
                 
 
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2020-07-03
+                    2020-07-05
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    465
+                    1.9k
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    2 分
+                    7 分
                 </div>
                 
 
@@ -465,119 +465,261 @@
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h3 id="运行效果"><a href="#运行效果" class="headerlink" title="运行效果"></a>运行效果</h3><p><img src="https://pic.downk.cc/item/5e69c5fae83c3a1e3aee2989.png" alt=""></p>
-<p><img src="https://pic.downk.cc/item/5e69c5fae83c3a1e3aee2985.png" alt=""></p>
-<p><img src="https://pic.downk.cc/item/5e69c5fae83c3a1e3aee2987.png" alt=""></p>
-<h3 id="优点"><a href="#优点" class="headerlink" title="优点"></a>优点</h3><ol>
-<li>集合内可添加字母作为元素</li>
-<li>集合元素显示较为友好</li>
-<li>easygui图形界面注重用户体验</li>
-<li>可多次计算，十分便捷</li>
+                <h3 id="一些Linux的特性"><a href="#一些Linux的特性" class="headerlink" title="一些Linux的特性"></a>一些Linux的特性</h3><p>Linux是严格区分大小写的。</p>
+<p>Linux中所有内容以文件形式保存，包括硬件。</p>
+<p>Linux不靠扩展名区分文件类型(扩展名是为了方便人识别，这导致的Windows和Linux不兼容)。</p>
+<p>Linux所有的存储设备都必须挂载之后用户才能使用，包括硬盘、U盘和光盘。</p>
+<h3 id="Linux命令"><a href="#Linux命令" class="headerlink" title="Linux命令"></a>Linux命令</h3><h4 id="命令格式"><a href="#命令格式" class="headerlink" title="命令格式"></a>命令格式</h4><p>命令 -选项 参数</p>
+<p>说明:</p>
+<ol>
+<li>个别命令使用不遵循此格式</li>
+<li>当有多个选项时，可以写在一起</li>
+<li>简化选项与完整选项（如-a 等于 –all)</li>
 </ol>
-<h3 id="缺点"><a href="#缺点" class="headerlink" title="缺点"></a>缺点</h3><ol>
-<li>字号太小，字体太丑</li>
-<li>源代码无注释且较乱</li>
-<li>过多的元素无法在图形界面显示</li>
+<h4 id="目录处理命令"><a href="#目录处理命令" class="headerlink" title="目录处理命令"></a>目录处理命令</h4><h5 id="ls"><a href="#ls" class="headerlink" title="ls"></a>ls</h5><p>list</p>
+<p>-a (all) 可查看隐藏文件（Linux隐藏文件以.开头，隐藏文件主要是为了说明它不常用）</p>
+<p>-l (long) 显示详细信息: （文件信息、引用计数、所有者、所处组、大小(默认单位字节,能用-lh更人性化显示)、最后修改时间、文件名）</p>
+<p>-d 查看目录属性</p>
+<p>-i 显示inode号</p>
+<p>-h 人性化显示大小</p>
+<h6 id="文件信息"><a href="#文件信息" class="headerlink" title="文件信息"></a>文件信息</h6><p>-:文件 d:目录 l:软链接</p>
+<p>剩下九个字符:r读 w写 x执行 </p>
+<p>u所有者 g所属组 o其他人</p>
+<p>rwx rw- r–</p>
+<h5 id="mkdir"><a href="#mkdir" class="headerlink" title="mkdir"></a>mkdir</h5><p>make directory</p>
+<p>mkdir 目录名</p>
+<p>可以同时创建多个目录</p>
+<p>-p 递归创建</p>
+<h5 id="cd"><a href="#cd" class="headerlink" title="cd"></a>cd</h5><p>change directory</p>
+<p>cd .. 回到上一级目录</p>
+<p>. 当前目录 .. 上一级目录</p>
+<h5 id="pwd"><a href="#pwd" class="headerlink" title="pwd"></a>pwd</h5><p>print working directory</p>
+<h5 id="rmdir"><a href="#rmdir" class="headerlink" title="rmdir"></a>rmdir</h5><p>remove empty directories</p>
+<h5 id="cp"><a href="#cp" class="headerlink" title="cp"></a>cp</h5><p>copy</p>
+<p>cp  -rp  [原文件或目录] [目标目录] </p>
+<p>-r  复制目录</p>
+<p>-p  保留文件属性（如最后修改时间也会复制）</p>
+<p>功能描述：复制文件或目录</p>
+<p>复制的同时甚至可以更名</p>
+<h5 id="mv"><a href="#mv" class="headerlink" title="mv"></a>mv</h5><p>move</p>
+<p>与cp不同，复制目录不用加-r</p>
+<p>剪切文件、改名</p>
+<h5 id="clear"><a href="#clear" class="headerlink" title="clear"></a>clear</h5><p>清屏（快捷键ctrl+l)</p>
+<h5 id="rm"><a href="#rm" class="headerlink" title="rm"></a>rm</h5><p>remove</p>
+<p>rm  -rf   [文件或目录] </p>
+<p>-r  删除目录</p>
+<p>-f  强制执行</p>
+<p>ctrl+c 终止命令</p>
+<h4 id="文件处理命令"><a href="#文件处理命令" class="headerlink" title="文件处理命令"></a>文件处理命令</h4><h5 id="touch"><a href="#touch" class="headerlink" title="touch"></a>touch</h5><p>创建文件</p>
+<p>带空格时可用双引号表示整体”” 但不建议文件名带空格，很麻烦</p>
+<h5 id="cat"><a href="#cat" class="headerlink" title="cat"></a>cat</h5><p>浏览文件</p>
+<p>-n  显示行号</p>
+<p>tac 按行倒着显示</p>
+<h5 id="more"><a href="#more" class="headerlink" title="more"></a>more</h5><p>分页显示</p>
+<p> (空格) 或f       翻页           </p>
+<p> (Enter)             换行                 </p>
+<p> q或Q              退出 </p>
+<h5 id="less"><a href="#less" class="headerlink" title="less"></a>less</h5><p>也是浏览，还可进行搜索</p>
+<p>搜索/ + 内容 n下一条</p>
+<h5 id="head"><a href="#head" class="headerlink" title="head"></a>head</h5><p>显示文件前面几行    </p>
+<p>-n 指定行数（默认前十行）</p>
+<h5 id="tail"><a href="#tail" class="headerlink" title="tail"></a>tail</h5><p>显示文件末尾几行</p>
+<p>-f 动态显示文件末尾内容</p>
+<h5 id="ln"><a href="#ln" class="headerlink" title="ln"></a>ln</h5><p>link </p>
+<p>ln  [原文件]  [目标文件]                 </p>
+<p> -s  创建软链接 </p>
+<p>功能描述：生成链接文件</p>
+<p><strong>软链接特征：</strong></p>
+<p>类似Windows快捷方式 </p>
+<ol>
+<li>lrwxrwxrwx    l 软链接 </li>
 </ol>
-<h3 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h3><pre class=" language-python"><code class="language-python"><span class="token comment" spellcheck="true">#集合计算器</span>
-<span class="token keyword">from</span> easygui <span class="token keyword">import</span> <span class="token operator">*</span>
-
-<span class="token keyword">def</span> <span class="token function">encode</span><span class="token punctuation">(</span>A<span class="token punctuation">)</span><span class="token punctuation">:</span>
-    A <span class="token operator">=</span> A<span class="token punctuation">.</span>strip<span class="token punctuation">(</span><span class="token string">'{}'</span><span class="token punctuation">)</span>
-    A <span class="token operator">=</span> A<span class="token punctuation">.</span>replace<span class="token punctuation">(</span><span class="token string">' '</span><span class="token punctuation">,</span><span class="token string">''</span><span class="token punctuation">)</span>
-    A <span class="token operator">=</span> A<span class="token punctuation">.</span>split<span class="token punctuation">(</span><span class="token string">','</span><span class="token punctuation">)</span>
-    <span class="token keyword">for</span> i <span class="token keyword">in</span> A<span class="token punctuation">:</span>
-        <span class="token keyword">if</span> i <span class="token operator">==</span> <span class="token string">''</span><span class="token punctuation">:</span>
-            A<span class="token punctuation">.</span>remove<span class="token punctuation">(</span>i<span class="token punctuation">)</span>
-    <span class="token keyword">if</span> len<span class="token punctuation">(</span>A<span class="token punctuation">)</span> <span class="token operator">==</span> <span class="token number">1</span> <span class="token operator">and</span> A<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span> <span class="token operator">==</span> <span class="token string">'∅'</span><span class="token punctuation">:</span>
-        <span class="token keyword">return</span> set<span class="token punctuation">(</span><span class="token punctuation">)</span>
-    <span class="token keyword">return</span> set<span class="token punctuation">(</span>A<span class="token punctuation">)</span>
-
-<span class="token keyword">def</span> <span class="token function">ChooseElement</span><span class="token punctuation">(</span>B<span class="token punctuation">,</span> i<span class="token punctuation">,</span> Len<span class="token punctuation">)</span><span class="token punctuation">:</span>
-    <span class="token keyword">if</span> i <span class="token operator">==</span> <span class="token number">0</span><span class="token punctuation">:</span>
-        <span class="token keyword">return</span><span class="token punctuation">(</span><span class="token string">'∅'</span><span class="token punctuation">)</span>
-    code <span class="token operator">=</span> <span class="token string">'{0:>{1}}'</span><span class="token punctuation">.</span>format<span class="token punctuation">(</span>bin<span class="token punctuation">(</span>i<span class="token punctuation">)</span><span class="token punctuation">[</span><span class="token number">2</span><span class="token punctuation">:</span><span class="token punctuation">]</span><span class="token punctuation">,</span>Len<span class="token punctuation">)</span>
-    X <span class="token operator">=</span> list<span class="token punctuation">(</span><span class="token punctuation">)</span>
-    count <span class="token operator">=</span> <span class="token number">0</span>
-    <span class="token keyword">for</span> each <span class="token keyword">in</span> code<span class="token punctuation">:</span>
-        <span class="token keyword">if</span> each <span class="token operator">==</span> <span class="token string">'1'</span><span class="token punctuation">:</span>
-            X<span class="token punctuation">.</span>append<span class="token punctuation">(</span>B<span class="token punctuation">[</span>count<span class="token punctuation">]</span><span class="token punctuation">)</span>
-        count <span class="token operator">+=</span> <span class="token number">1</span>
-    X<span class="token punctuation">.</span>sort<span class="token punctuation">(</span><span class="token punctuation">)</span>
-    <span class="token keyword">return</span> <span class="token string">'{'</span> <span class="token operator">+</span> str<span class="token punctuation">(</span>X<span class="token punctuation">)</span><span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">:</span><span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">]</span> <span class="token operator">+</span> <span class="token string">'}'</span>
-
-<span class="token keyword">def</span> <span class="token function">PowerSet</span><span class="token punctuation">(</span>A<span class="token punctuation">)</span><span class="token punctuation">:</span>
-    Len <span class="token operator">=</span> len<span class="token punctuation">(</span>A<span class="token punctuation">)</span>
-    num <span class="token operator">=</span> <span class="token number">2</span> <span class="token operator">**</span> Len
-    C <span class="token operator">=</span> set<span class="token punctuation">(</span><span class="token punctuation">)</span>
-    B <span class="token operator">=</span> list<span class="token punctuation">(</span>A<span class="token punctuation">)</span>
-    B<span class="token punctuation">.</span>sort<span class="token punctuation">(</span><span class="token punctuation">)</span>
-    <span class="token keyword">for</span> i <span class="token keyword">in</span> range<span class="token punctuation">(</span>num<span class="token punctuation">)</span><span class="token punctuation">:</span>
-        C<span class="token punctuation">.</span>add<span class="token punctuation">(</span>ChooseElement<span class="token punctuation">(</span>B<span class="token punctuation">,</span> i<span class="token punctuation">,</span> Len<span class="token punctuation">)</span><span class="token punctuation">)</span>
-    <span class="token keyword">return</span> C
-
-<span class="token keyword">def</span> <span class="token function">output</span><span class="token punctuation">(</span>C<span class="token punctuation">)</span><span class="token punctuation">:</span>
-    <span class="token keyword">if</span> len<span class="token punctuation">(</span>C<span class="token punctuation">)</span> <span class="token operator">==</span> <span class="token number">0</span><span class="token punctuation">:</span>
-        <span class="token keyword">return</span> <span class="token string">'∅'</span>
-    <span class="token keyword">else</span><span class="token punctuation">:</span>
-        C <span class="token operator">=</span> list<span class="token punctuation">(</span>C<span class="token punctuation">)</span>
-        C<span class="token punctuation">.</span>sort<span class="token punctuation">(</span><span class="token punctuation">)</span>
-        C <span class="token operator">=</span> str<span class="token punctuation">(</span>C<span class="token punctuation">)</span>
-        C <span class="token operator">=</span> C<span class="token punctuation">.</span>replace<span class="token punctuation">(</span><span class="token string">'"'</span><span class="token punctuation">,</span><span class="token string">''</span><span class="token punctuation">)</span>
-        C <span class="token operator">=</span> C<span class="token punctuation">.</span>replace<span class="token punctuation">(</span><span class="token string">"'"</span><span class="token punctuation">,</span><span class="token string">''</span><span class="token punctuation">)</span>
-        <span class="token keyword">return</span> <span class="token string">'{'</span> <span class="token operator">+</span> C<span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">:</span><span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">]</span> <span class="token operator">+</span> <span class="token string">'}'</span>
-
-mode <span class="token operator">=</span> <span class="token number">1</span>
-A <span class="token operator">=</span> <span class="token punctuation">{</span><span class="token number">1</span><span class="token punctuation">,</span><span class="token number">2</span><span class="token punctuation">,</span><span class="token number">3</span><span class="token punctuation">}</span>
-B <span class="token operator">=</span> <span class="token punctuation">{</span><span class="token number">1</span><span class="token punctuation">,</span><span class="token number">4</span><span class="token punctuation">}</span>
-<span class="token keyword">while</span> <span class="token boolean">True</span><span class="token punctuation">:</span>
-    <span class="token keyword">if</span> mode <span class="token operator">!=</span> <span class="token number">3</span><span class="token punctuation">:</span>
-        tte <span class="token operator">=</span> <span class="token string">'集合计算器'</span>
-        msg1 <span class="token operator">=</span> <span class="token string">'请输入要计算的两个集合：'</span>
-        msg1 <span class="token operator">+=</span> <span class="token string">'(请使用半角的逗号作为分隔)'</span>
-        A<span class="token punctuation">,</span> B <span class="token operator">=</span> <span class="token punctuation">(</span>multenterbox<span class="token punctuation">(</span>msg <span class="token operator">=</span> msg1<span class="token punctuation">,</span> title <span class="token operator">=</span> tte<span class="token punctuation">,</span> fields <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token string">'A'</span><span class="token punctuation">,</span> <span class="token string">'B'</span><span class="token punctuation">]</span><span class="token punctuation">,</span> values<span class="token operator">=</span><span class="token punctuation">[</span>output<span class="token punctuation">(</span>A<span class="token punctuation">)</span><span class="token punctuation">,</span> output<span class="token punctuation">(</span>B<span class="token punctuation">)</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
-        A <span class="token operator">=</span> encode<span class="token punctuation">(</span>A<span class="token punctuation">)</span>
-        B <span class="token operator">=</span> encode<span class="token punctuation">(</span>B<span class="token punctuation">)</span>
-
-    Choices1 <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token string">'A∩B'</span><span class="token punctuation">,</span><span class="token string">'A∪B'</span><span class="token punctuation">,</span><span class="token string">'A–B'</span><span class="token punctuation">,</span><span class="token string">'B–A'</span><span class="token punctuation">,</span><span class="token string">'A⊕B'</span><span class="token punctuation">,</span><span class="token string">'P(A)'</span><span class="token punctuation">,</span><span class="token string">'改变A或B的值'</span><span class="token punctuation">]</span>
-    msg2 <span class="token operator">=</span> <span class="token string">'A = '</span> <span class="token operator">+</span> output<span class="token punctuation">(</span>A<span class="token punctuation">)</span> <span class="token operator">+</span> <span class="token string">'\n'</span>
-    msg2 <span class="token operator">+=</span> <span class="token string">'B = '</span> <span class="token operator">+</span> output<span class="token punctuation">(</span>B<span class="token punctuation">)</span> <span class="token operator">+</span> <span class="token string">'\n'</span>
-    msg2 <span class="token operator">+=</span> <span class="token string">'请选择你要进行的操作：\n'</span>
-    choice <span class="token operator">=</span> buttonbox<span class="token punctuation">(</span>msg <span class="token operator">=</span> msg2<span class="token punctuation">,</span> title <span class="token operator">=</span> tte<span class="token punctuation">,</span> choices <span class="token operator">=</span> Choices1<span class="token punctuation">)</span>
-
-    <span class="token keyword">if</span> choice <span class="token operator">==</span> <span class="token string">'A∩B'</span><span class="token punctuation">:</span>
-        C <span class="token operator">=</span> A <span class="token operator">&amp;</span> B
-    <span class="token keyword">elif</span> choice <span class="token operator">==</span> <span class="token string">'A∪B'</span><span class="token punctuation">:</span>
-        C <span class="token operator">=</span> A <span class="token operator">|</span> B
-    <span class="token keyword">elif</span> choice <span class="token operator">==</span> <span class="token string">'A–B'</span><span class="token punctuation">:</span>
-        C <span class="token operator">=</span> A <span class="token operator">-</span> B
-    <span class="token keyword">elif</span> choice <span class="token operator">==</span> <span class="token string">'B–A'</span><span class="token punctuation">:</span>
-        C <span class="token operator">=</span> B <span class="token operator">-</span> A
-    <span class="token keyword">elif</span> choice <span class="token operator">==</span> <span class="token string">'A⊕B'</span><span class="token punctuation">:</span>
-        C <span class="token operator">=</span> A <span class="token operator">^</span> B
-    <span class="token keyword">elif</span> choice <span class="token operator">==</span> <span class="token string">'P(A)'</span><span class="token punctuation">:</span>
-        C <span class="token operator">=</span> PowerSet<span class="token punctuation">(</span>A<span class="token punctuation">)</span>
-    <span class="token keyword">if</span> choice <span class="token operator">==</span> <span class="token string">'改变A或B的值'</span><span class="token punctuation">:</span>
-        mode <span class="token operator">=</span> <span class="token number">2</span>
-    <span class="token keyword">else</span><span class="token punctuation">:</span>
-        mode <span class="token operator">=</span> <span class="token number">1</span>
-
-    <span class="token keyword">if</span> mode <span class="token operator">!=</span> <span class="token number">2</span><span class="token punctuation">:</span>
-        <span class="token keyword">if</span> len<span class="token punctuation">(</span>C<span class="token punctuation">)</span> <span class="token operator">&lt;</span> <span class="token number">32</span><span class="token punctuation">:</span>
-            msg3 <span class="token operator">=</span> choice <span class="token operator">+</span> <span class="token string">' = '</span> <span class="token operator">+</span> output<span class="token punctuation">(</span>C<span class="token punctuation">)</span>
-        <span class="token keyword">else</span><span class="token punctuation">:</span>
-            msg3 <span class="token operator">=</span> <span class="token string">'太长了，写不下！'</span> <span class="token operator">+</span> choice <span class="token operator">+</span> <span class="token string">'共有'</span> <span class="token operator">+</span> str<span class="token punctuation">(</span>len<span class="token punctuation">(</span>C<span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token operator">+</span> <span class="token string">'项'</span>
-        Choices2 <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token string">'继续运算'</span><span class="token punctuation">,</span> <span class="token string">'改变A或B的值'</span><span class="token punctuation">,</span> <span class="token string">'退出'</span><span class="token punctuation">]</span>
-        Choice <span class="token operator">=</span> buttonbox<span class="token punctuation">(</span>msg <span class="token operator">=</span> msg3<span class="token punctuation">,</span> title <span class="token operator">=</span> tte<span class="token punctuation">,</span> choices <span class="token operator">=</span> Choices2<span class="token punctuation">)</span>
-        <span class="token keyword">if</span> Choice <span class="token operator">==</span> <span class="token string">'退出'</span><span class="token punctuation">:</span>
-            <span class="token keyword">break</span>
-        <span class="token keyword">elif</span> Choice <span class="token operator">==</span> <span class="token string">'继续运算'</span><span class="token punctuation">:</span>
-            mode <span class="token operator">=</span> <span class="token number">3</span>
-        <span class="token keyword">elif</span> Choice <span class="token operator">==</span> <span class="token string">'改变A或B的值'</span><span class="token punctuation">:</span>
-            mode <span class="token operator">=</span> <span class="token number">1</span>
-        <span class="token keyword">else</span><span class="token punctuation">:</span>
-            <span class="token keyword">break</span>
-</code></pre>
+<p>软链接文件权限都为rwxrwxrwx </p>
+<ol start="2">
+<li><p>文件大小-只是符号链接 </p>
+</li>
+<li><p>/tmp/issue.soft -&gt; /etc/issue 箭头指向原文件</p>
+</li>
+</ol>
+<p><strong>硬链接特征：</strong></p>
+<ol>
+<li><p>拷贝cp -p + 同步更新 </p>
+</li>
+<li><p>可通过i节点识别 </p>
+</li>
+<li><p>不能跨分区</p>
+</li>
+<li><p>不能针对目录使用</p>
+</li>
+</ol>
+<h4 id="权限管理命令"><a href="#权限管理命令" class="headerlink" title="权限管理命令"></a>权限管理命令</h4><h5 id="chmod"><a href="#chmod" class="headerlink" title="chmod"></a>chmod</h5><p>change the permissions mode of a file </p>
+<p>chmod  [{ugoa}{+-=}{rwx}] [文件或目录]                         </p>
+<p>  [mode=421]  [文件或目录]                          </p>
+<p> -R  递归修改 </p>
+<p>功能描述：改变文件或目录权限</p>
+<p>权限的数字表示      </p>
+<p>r  —- 4      w —- 2      x  —- 1</p>
+<p>rwxrw-r–    7   6   4</p>
+<table>
+<thead>
+<tr>
+<th align="center">代表字符</th>
+<th align="center">权限</th>
+<th align="center">对文件的含义</th>
+<th align="center">对目录的含义</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">r</td>
+<td align="center">读权限</td>
+<td align="center">可以查看文件内容</td>
+<td align="center"><strong>可以列出目录中的内容</strong></td>
+</tr>
+<tr>
+<td align="center">w</td>
+<td align="center">写权限</td>
+<td align="center">可以修改文件内容</td>
+<td align="center"><strong>可以在目录中创建、删除文件</strong></td>
+</tr>
+<tr>
+<td align="center">x</td>
+<td align="center">执行权限</td>
+<td align="center">可以执行文件</td>
+<td align="center"><strong>可以进入目录</strong></td>
+</tr>
+</tbody></table>
+<h5 id="chown"><a href="#chown" class="headerlink" title="chown"></a>chown</h5><p>只有root才能执行</p>
+<p>change file ownership</p>
+<p>chown  [用户] [文件或目录]  </p>
+<h5 id="chgrp"><a href="#chgrp" class="headerlink" title="chgrp"></a>chgrp</h5><p>change file group ownership </p>
+<p>chgrp  [用户组]  [文件或目录]  </p>
+<h5 id="umask"><a href="#umask" class="headerlink" title="umask"></a><strong>umask</strong></h5><p>the user file-creation mask</p>
+<p>umask [-S]             </p>
+<p>-S   以rwx形式显示新建文件缺省权限 </p>
+<p>umask 007 -&gt;把默认权限改成770</p>
+<p>tips: 新建文件是默认没有x权限（比如：防止木马病毒攻击）</p>
+<h4 id="文件搜索命令"><a href="#文件搜索命令" class="headerlink" title="文件搜索命令"></a>文件搜索命令</h4><h5 id="find"><a href="#find" class="headerlink" title="find"></a>find</h5><p>find  [搜索范围]  [匹配条件] </p>
+<p>-name  按名字查找          </p>
+<p>-iname 不区分大小写        </p>
+<p>$ find /etc -name init??？</p>
+<p>在目录/etc中查找文件名init开头并有3个字符的   </p>
+<p><em>tips:\</em> 匹配任意字符，?匹配单个字符*</p>
+<p>$ find  /  -size  +204800           </p>
+<p>在根目录下查找大于100MB的文件        </p>
+<p>-user  根据所有者查找</p>
+<p>-group  根据所属组查找</p>
+<p>$ find  /etc  -cmin  -5         </p>
+<p>在/etc下查找5分钟内被修改过属性的文件和目录</p>
+<p>-amin  访问时间 access   </p>
+<p>-cmin  文件属性 change     </p>
+<p>-mmin 文件内容 modify</p>
+<p>$ find  /etc -size  +163840 -a -size  -204800          </p>
+<p>在/etc下查找大于80MB小于100MB的文件          </p>
+<p>-a 两个条件同时满足         </p>
+<p>-o 两个条件满足任意一个即可        </p>
+<p>-exec/-ok 命令 {} ;  对搜索结果执行操作</p>
+<p><em>tips:**-exec直接执行，ok会询问操作</em></p>
+<p>-type 根据文件类型查找                  </p>
+<p>f 文件    d 目录    l 软链</p>
+<p>-inum  根据i节点查找</p>
+<h5 id="locate"><a href="#locate" class="headerlink" title="locate"></a>locate</h5><p>在文件资料库中查找文件 </p>
+<p>可以updatedb更新文件资料库[tmp不在文件资料库内]</p>
+<p> -i 不区分大小写</p>
+<h5 id="which"><a href="#which" class="headerlink" title="which"></a>which</h5><p>which  [命令名称] </p>
+<p>搜索命令所在目录及别名信息 </p>
+<h5 id="whereis"><a href="#whereis" class="headerlink" title="whereis"></a>whereis</h5><p>whereis  [命令名称] </p>
+<p>搜索命令所在目录及帮助文档路径 </p>
+<h5 id="grep"><a href="#grep" class="headerlink" title="grep"></a>grep</h5><p>grep  -iv [指定字串] [文件] </p>
+<p>功能描述：在文件中搜寻字串匹配的行并输出             </p>
+<p>-i  不区分大小写             </p>
+<p>-v 排除指定字串 </p>
+<h4 id="帮助命令"><a href="#帮助命令" class="headerlink" title="帮助命令"></a>帮助命令</h4><h5 id="man"><a href="#man" class="headerlink" title="man"></a>man</h5><p>manual</p>
+<p>man  [命令或配置文件] </p>
+<h5 id="whatis"><a href="#whatis" class="headerlink" title="whatis"></a>whatis</h5><p>获得命令的简单介绍信息</p>
+<h5 id="apropos"><a href="#apropos" class="headerlink" title="apropos"></a>apropos</h5><p>apropos 配置文件</p>
+<h5 id="help"><a href="#help" class="headerlink" title="help"></a>help</h5><h5 id="info"><a href="#info" class="headerlink" title="info"></a>info</h5><h4 id="用户管理命令"><a href="#用户管理命令" class="headerlink" title="用户管理命令"></a>用户管理命令</h4><h5 id="useradd"><a href="#useradd" class="headerlink" title="useradd"></a><strong>useradd</strong></h5><p>useradd 用户名</p>
+<p>添加新用户</p>
+<p><strong>passwd</strong></p>
+<p>passwd 用户名 </p>
+<p>设置密码</p>
+<p><strong>who</strong></p>
+<p>查看登录用户信息 </p>
+<h5 id="w"><a href="#w" class="headerlink" title="w"></a>w</h5><p>查看登录用户详细信息</p>
+<h4 id="压缩解压命令"><a href="#压缩解压命令" class="headerlink" title="压缩解压命令"></a>压缩解压命令</h4><h5 id="gzip"><a href="#gzip" class="headerlink" title="gzip"></a>gzip</h5><p>GNU zip</p>
+<p>gzip [文件] </p>
+<p>压缩文件</p>
+<p>.gz</p>
+<h5 id="gunzip-gzip-d"><a href="#gunzip-gzip-d" class="headerlink" title="gunzip  [= gzip -d]"></a>gunzip  [= gzip -d]</h5><p>解压缩.gz的压缩文件</p>
+<p>tips:只能压缩文件不能压缩目录</p>
+<h5 id="tar"><a href="#tar" class="headerlink" title="tar"></a>tar</h5><p>tar  [-zcf] [压缩后文件名] [目录]                                   </p>
+<p>-c    打包                 </p>
+<p>-v    显示详细信息                 </p>
+<p>-f     指定文件名            </p>
+<p>-z     打包同时压缩 </p>
+<p>功能描述：打包目录 压缩后文件格式：.tar.gz</p>
+<p>tar命令解压缩语法：           </p>
+<p>-x     解包           </p>
+<p>-v    显示详细信息           </p>
+<p>-f     指定解压文件           </p>
+<p>-z     解压缩 </p>
+<p>范例：$ tar  -zxvf  Sth.tar.gz</p>
+<h5 id="zip"><a href="#zip" class="headerlink" title="zip"></a>zip</h5><p>zip  [-r]  [压缩后文件名]  [文件或目录] </p>
+<p>-r    压缩目录 </p>
+<p>.zip</p>
+<p>tips：会保留原文件</p>
+<h5 id="unzip"><a href="#unzip" class="headerlink" title="unzip"></a>unzip</h5><h5 id="bzip2"><a href="#bzip2" class="headerlink" title="bzip2"></a>bzip2</h5><p>bzip2  [-k] [文件]</p>
+<p>-k  保留原文件 </p>
+<p>.bz2</p>
+<p>$ bzip2 -k Sth             </p>
+<p>$ tar -cjf  Sth.tar.bz2 Sth</p>
+<h5 id="bunzip2"><a href="#bunzip2" class="headerlink" title="bunzip2"></a>bunzip2</h5><p>bunzip2  [-k] [压缩文件]                               </p>
+<p>-k   保留原文件 </p>
+<p>范例：$ bunzip2  -k Sth.bz2           </p>
+<p>   $ tar -xjf  Sth.tar.bz2</p>
+<h4 id="网络命令"><a href="#网络命令" class="headerlink" title="网络命令"></a>网络命令</h4><h5 id="pkill"><a href="#pkill" class="headerlink" title="pkill"></a>pkill</h5><p>踢出用户</p>
+<p>pkill -kill -t pts/0</p>
+<h5 id="write"><a href="#write" class="headerlink" title="write"></a>write</h5><p>write  &lt;用户名&gt;</p>
+<p>给用户发信息，以Ctrl+D保存结束 </p>
+<p>tips:输入错误，control+delete 删除</p>
+<h5 id="wall"><a href="#wall" class="headerlink" title="wall"></a>wall</h5><p>write all</p>
+<p>wall  [message]</p>
+<p>发广播信息 </p>
+<h5 id="ping"><a href="#ping" class="headerlink" title="ping"></a><strong>ping</strong></h5><p>ping  选项  IP地址                      </p>
+<p>-c  指定发送次数</p>
+<p>$ ping -c 3 192.168.1.1</p>
+<h5 id="ifconfig"><a href="#ifconfig" class="headerlink" title="ifconfig"></a>ifconfig</h5><p>ifconfig  网卡名称  IP地址</p>
+<p>查看和设置网卡信息</p>
+<h5 id="mail"><a href="#mail" class="headerlink" title="mail"></a>mail</h5><p>mail [用户名]</p>
+<p>查看发送电子邮件</p>
+<h5 id="last"><a href="#last" class="headerlink" title="last"></a>last</h5><p>列出目前与过去登入系统的用户信息</p>
+<h5 id="lastlog"><a href="#lastlog" class="headerlink" title="lastlog"></a>lastlog</h5><p>检查某特定用户上次登录的时间 </p>
+<h5 id="traceroute"><a href="#traceroute" class="headerlink" title="traceroute"></a>traceroute</h5><p>显示数据包到主机间的路径</p>
+<h5 id="netstat"><a href="#netstat" class="headerlink" title="netstat"></a>netstat</h5><p>显示网络相关信息</p>
+<p> -t  ： TCP协议  </p>
+<p> -u ： UDP协议  </p>
+<p>  -l ： 监听  </p>
+<p>  -r ： 路由  </p>
+<p>  -n ： 显示IP地址和端口号 </p>
+<p>范例：  </p>
+<p>#  netstat -tlun  查看本机监听的端口 </p>
+<p>#  netstat -an  查看本机所有的网络连接  </p>
+<p>#  netstat -rn  查看本机路由表</p>
+<h5 id="nmtui"><a href="#nmtui" class="headerlink" title="nmtui"></a>nmtui</h5><p>配置网络</p>
+<h5 id="mount"><a href="#mount" class="headerlink" title="mount"></a>mount</h5><p>挂载命令</p>
+<p>mount [-t 文件系统] 设备文件名 挂载点</p>
+<h4 id="关机重启命令"><a href="#关机重启命令" class="headerlink" title="关机重启命令"></a>关机重启命令</h4><h5 id="shutdown"><a href="#shutdown" class="headerlink" title="shutdown"></a>shutdown</h5><p>shutdown [选项] 时间</p>
+<p> -c： 取消前一个关机命令  -h： 关机  -r： 重启</p>
+<h5 id="halt"><a href="#halt" class="headerlink" title="halt"></a>halt</h5><h5 id="poweroff"><a href="#poweroff" class="headerlink" title="poweroff"></a>poweroff</h5><p>其他可用关机命令</p>
+<h5 id="reboot"><a href="#reboot" class="headerlink" title="reboot"></a>reboot</h5><p>其他可用重启命令</p>
+<h5 id="init"><a href="#init" class="headerlink" title="init"></a>init</h5><p>0  关机 </p>
+<p>1  单用户 </p>
+<p>2  不完全多用户，不含NFS服务 </p>
+<p>3  完全多用户</p>
+<p>4  未分配 </p>
+<p>5  图形界面</p>
+<p>6  重启</p>
+<h5 id="runlevel"><a href="#runlevel" class="headerlink" title="runlevel"></a>runlevel</h5><p>查询系统运行级别</p>
+<h5 id="logout"><a href="#logout" class="headerlink" title="logout"></a>logout</h5><p>退出登录</p>
 
             </div>
             <hr/>
@@ -603,7 +745,7 @@ B <span class="token operator">=</span> <span class="token punctuation">{</span>
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="http://wushenghao666.github.io/47245/">http://wushenghao666.github.io/47245/</a>
+                    <a href="http://wushenghao666.github.io/48230/">http://wushenghao666.github.io/48230/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -641,8 +783,8 @@ B <span class="token operator">=</span> <span class="token punctuation">{</span>
                     
                         <div class="article-tag">
                             
-                                <a href="/tags/%E5%B0%8F%E7%A8%8B%E5%BA%8F/">
-                                    <span class="chip bg-color">小程序</span>
+                                <a href="/tags/%E7%AC%94%E8%AE%B0/">
+                                    <span class="chip bg-color">笔记</span>
                                 </a>
                             
                         </div>
@@ -1071,9 +1213,59 @@ B <span class="token operator">=</span> <span class="token punctuation">{</span>
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
+                <i class="far fa-dot-circle"></i>&nbsp;本篇
+            </div>
+            <div class="card">
+                <a href="/48230/">
+                    <div class="card-image">
+                        
+                        <img src="/medias/featureimages/10.jpg" class="responsive-img" alt="Linux常用命令">
+                        
+                        <span class="card-title">Linux常用命令</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            Linux学习记录(1)
+                        
+                    </div>
+                    <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2020-07-03
+                            </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/%E7%AC%94%E8%AE%B0/" class="post-category">
+                                    笔记
+                                </a>
+                            
+                            
+                        </span>
+                    </div>
+                </div>
+
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/%E7%AC%94%E8%AE%B0/">
+                        <span class="chip bg-color">笔记</span>
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge right-badge text-color">
+                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
+            </div>
             <div class="card">
                 <a href="/62904/">
                     <div class="card-image">
@@ -1090,9 +1282,9 @@ B <span class="token operator">=</span> <span class="token punctuation">{</span>
                         
                     </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2020-03-11
-                        </span>
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2020-03-11
+                            </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
@@ -1110,54 +1302,6 @@ B <span class="token operator">=</span> <span class="token punctuation">{</span>
                     
                     <a href="/tags/%E5%B0%8F%E7%A8%8B%E5%BA%8F-%E6%95%99%E5%AD%A6/">
                         <span class="chip bg-color">小程序, 教学</span>
-                    </a>
-                    
-                </div>
-                
-            </div>
-        </div>
-        
-        
-        <div class="article col s12 m6" data-aos="fade-up">
-            <div class="article-badge right-badge text-color">
-                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
-            </div>
-            <div class="card">
-                <a href="/58810/">
-                    <div class="card-image">
-                        
-                        <img src="/medias/featureimages/6.jpg" class="responsive-img" alt="PPT笔记">
-                        
-                        <span class="card-title">PPT笔记</span>
-                    </div>
-                </a>
-                <div class="card-content article-content">
-                    <div class="summary block-with-text">
-                        
-                            万门大学的PPT笔记。
-                        
-                    </div>
-                    <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2020-02-20
-                            </span>
-                        <span class="publish-author">
-                            
-                            <i class="fas fa-bookmark fa-fw icon-category"></i>
-                            
-                            <a href="/categories/%E7%AC%94%E8%AE%B0/" class="post-category">
-                                    笔记
-                                </a>
-                            
-                            
-                        </span>
-                    </div>
-                </div>
-                
-                <div class="card-action article-tags">
-                    
-                    <a href="/tags/%E7%AC%94%E8%AE%B0/">
-                        <span class="chip bg-color">笔记</span>
                     </a>
                     
                 </div>
